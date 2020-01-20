@@ -2,9 +2,9 @@
   "name": "0001-blog-posts",
   "version": "1.0.0",
   "description": "0001-blog-posts",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "start": "node --inspect app.js"
   },
   "author": "Andrei Borissenko",
   "license": "MIT",
@@ -18,7 +18,6 @@
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.0",
-    "nodemon": "^2.0.2"
+    "eslint-plugin-react": "^7.18.0"
   }
 }

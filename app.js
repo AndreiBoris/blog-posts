@@ -11,8 +11,7 @@ _.each(routes, (router, path) => {
   app.use(`/${path}`, router);
 });
 
-const PORT = 3000;
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
   // eslint-disable-next-line no-console
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on port ${process.env.PORT}`);
 });
