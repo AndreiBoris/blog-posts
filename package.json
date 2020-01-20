@@ -1,0 +1,11 @@
+{
+  "name": "0001-blog-posts",
+  "version": "1.0.0",
+  "description": "0001-blog-posts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrei Borissenko",
+  "license": "MIT"
+}
